@@ -1,12 +1,6 @@
 {
-  "name": "Gemini-Boilerplate",
-  "devDependencies": {
-    "requirejs": "~2.1.11",
-    "requirejs-text": "~2.0.12",
-    "handlebars": "~1.3.0",
-    "html5shiv": "~3.7.0",
-    "jquery-placeholder": "~2.0.7",
-    "gemini-css": "~0.1",
-    "gemini-icons": "~0.1"
+  "name": "Gemini Boilerplate",
+  "dependencies": {
+    "gemini": "latest"
   }
 }

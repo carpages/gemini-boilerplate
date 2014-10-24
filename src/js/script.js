@@ -12,7 +12,6 @@ require.config({
     "jquery.hammer"                 : "bower_components/jquery-hammerjs/jquery.hammer",
     "jquery.placeholder"            : "bower_components/jquery-placeholder/jquery.placeholder",
     "jquery.cookie"                 : "bower_components/jquery-cookie/jquery.cookie",
-    "html5shiv"                     : "bower_components/html5shiv/dist/html5shiv",
     "gemini"                        : "bower_components/gemini-loader/gemini",
     "gemini.geolocation"            : "bower_components/gemini-geolocation/gemini.geolocation",
     "gemini.modal"                  : "bower_components/gemini-modal/gemini.modal",
@@ -47,14 +46,5 @@ require.config({
 });
 
 require(['gemini'], function (G) {
-
-  $('.js-scrollTo').click(function (e) {
-    e.preventDefault();
-
-    var $this = $(this);
-    $('html, body').animate({
-      scrollTop: $($this.attr('href')).offset().top - 18
-    }, 500);
-  });
 
 });
