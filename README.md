@@ -1,5 +1,7 @@
 # Gemini Boilerplate
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/carpages/gemini-boilerplate.svg)](https://greenkeeper.io/)
+
 ## Install
 
 ```
