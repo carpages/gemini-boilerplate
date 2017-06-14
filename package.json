@@ -9,12 +9,12 @@
   ],
   "engine": "node >= 0.10.26",
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-clean": "^0.5.0",
-    "grunt-contrib-compass": "^0.7.2",
-    "grunt-contrib-requirejs": "^0.4.3",
-    "grunt-webfont": "^0.4.7",
-    "grunt-favicons": "~0.6.4",
-    "grunt-preprocess": "~4.0.0"
+    "grunt": "~1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-requirejs": "^1.0.0",
+    "grunt-webfont": "^1.6.0",
+    "grunt-favicons": "~0.8.0",
+    "grunt-preprocess": "~5.1.0"
   }
 }
